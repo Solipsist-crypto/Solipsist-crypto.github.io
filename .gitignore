@@ -1,44 +1,16 @@
-# Документація та інструкції (не потрібні на GitHub)
-*.txt
-*.md
-!README.md
-!LICENSE
-CHEATSHEET.txt
-DELETE_REPOS_GUIDE.md
-DEPLOYMENT_CONFIG.md
-DEPLOY_INSTRUCTIONS.txt
-FINAL_CHECKLIST.md
-FREELANCE_GUIDE.md
-GEMINI_AVATAR_PROMPT.txt
-GITHUB_BIO.txt
-GITHUB_SETUP.txt
-PROJECT_SUMMARY.md
-QUICKSTART.md
-README_GITHUB.md
-SUMMARY.txt
-TODO.txt
-FINAL_DEPLOY_GUIDE.txt
-
-# Скрипти розробки
-*.bat
-*.sh
-deploy_portfolio.bat
-start.bat
-start.sh
-
-# Backend (не потрібен для статичного сайту)
-backend/
-
-# OS
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
-*.log
+# Documentation 
+*.txt 
+*.md 
+!README.md 
+!LICENSE 
+ 
+# Scripts 
+*.bat 
+*.sh 
+ 
+# Backend 
+backend/ 
+ 
+# OS 
+.DS_Store 
+Thumbs.db 
