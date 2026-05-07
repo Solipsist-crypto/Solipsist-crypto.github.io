@@ -1,49 +1,35 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-venv/
-env/
-ENV/
-.venv
+# Документація та інструкції (не потрібні на GitHub)
+CHEATSHEET.txt
+DELETE_REPOS_GUIDE.md
+DEPLOYMENT_CONFIG.md
+DEPLOY_INSTRUCTIONS.txt
+FINAL_CHECKLIST.md
+FREELANCE_GUIDE.md
+GEMINI_AVATAR_PROMPT.txt
+GITHUB_BIO.txt
+GITHUB_SETUP.txt
+PROJECT_SUMMARY.md
+QUICKSTART.md
+README_GITHUB.md
+SUMMARY.txt
+TODO.txt
+deploy_portfolio.bat
+start.bat
+start.sh
 
-# Flask
-instance/
-.webassets-cache
-
-# Environment variables
-.env
-.env.local
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# Backend (не потрібен для статичного сайту)
+backend/
 
 # OS
 .DS_Store
 Thumbs.db
 desktop.ini
 
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
 # Logs
 *.log
-logs/
-
-# Database
-*.db
-*.sqlite
-*.sqlite3
-
-# Temporary files
-*.tmp
-*.temp
-.cache/
-
-# Build files
-dist/
-build/
-*.egg-info/
