@@ -1,4 +1,8 @@
 # Документація та інструкції (не потрібні на GitHub)
+*.txt
+*.md
+!README.md
+!LICENSE
 CHEATSHEET.txt
 DELETE_REPOS_GUIDE.md
 DEPLOYMENT_CONFIG.md
@@ -13,6 +17,11 @@ QUICKSTART.md
 README_GITHUB.md
 SUMMARY.txt
 TODO.txt
+FINAL_DEPLOY_GUIDE.txt
+
+# Скрипти розробки
+*.bat
+*.sh
 deploy_portfolio.bat
 start.bat
 start.sh

@@ -15,13 +15,13 @@ git init
 git add .
 git commit -m "Initial commit: Portfolio site"
 git branch -M main
-git remote add origin https://github.com/Solipsist-crypto/portfolio.git
+git remote add origin https://github.com/Solipsist-crypto/Solipsist-crypto.github.io.git
 
 echo.
 echo ========================================
 echo ЗАРАЗ ПОТРІБНО:
 echo 1. Створити репозиторій на GitHub:
-echo    - Назва: portfolio
+echo    - Назва: Solipsist-crypto.github.io
 echo    - Public
 echo    - БЕЗ README
 echo.
@@ -37,12 +37,9 @@ echo.
 echo ========================================
 echo ✅ ГОТОВО!
 echo.
-echo ТЕПЕР:
-echo 1. GitHub → Settings → Pages
-echo 2. Source: main branch
-echo 3. Save
+echo GitHub Pages автоматично активується!
 echo.
-echo Твій сайт буде:
-echo https://Solipsist-crypto.github.io/portfolio
+echo Твій сайт буде доступний через 2-5 хвилин:
+echo https://Solipsist-crypto.github.io
 echo ========================================
 pause
