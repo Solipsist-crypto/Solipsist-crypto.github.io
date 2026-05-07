@@ -1,0 +1,85 @@
+# 🎨 Промпт для Gemini - Аватар GitHub
+
+Скопіюй і вставь в Gemini (gemini.google.com):
+
+---
+
+Create a professional GitHub profile avatar for a Python developer named "Solipsist".
+
+Style: Modern, minimalist, tech-focused
+Colors: Dark background (#0a0e27), neon green accent (#00ff88), cyan highlights (#0099ff)
+Elements:
+- Abstract geometric shapes or circuit board patterns
+- Python logo or code symbols subtly integrated
+- Futuristic, cyberpunk aesthetic
+- Clean and recognizable at small sizes (200x200px)
+
+The design should convey:
+- Technical expertise
+- Modern development
+- Backend/API focus
+- Trading bots and automation
+
+Format: Square (1:1 ratio), high resolution, suitable for GitHub profile picture
+No text, just visual elements
+
+---
+
+## Альтернативні промпти (якщо перший не сподобається):
+
+### Варіант 2 (Мінімалістичний):
+```
+Create a minimalist GitHub avatar for a Python developer.
+- Simple geometric logo
+- Dark navy background (#0a0e27)
+- Neon green (#00ff88) main element
+- Abstract representation of code or data flow
+- Professional and clean
+- Square format, 1024x1024px
+```
+
+### Варіант 3 (З літерою S):
+```
+Design a modern tech logo with letter "S" for GitHub profile.
+- Letter S stylized as circuit board or code
+- Dark background with neon green/cyan accents
+- Cyberpunk aesthetic
+- Geometric, angular design
+- Professional developer vibe
+- Square 1024x1024px
+```
+
+### Варіант 4 (Абстрактний):
+```
+Create an abstract tech avatar for Python developer GitHub profile.
+- Flowing data streams or neural network visualization
+- Dark theme (#0a0e27 background)
+- Neon green (#00ff88) and cyan (#0099ff) gradients
+- Futuristic, dynamic feel
+- No text, pure visual
+- 1024x1024px square
+```
+
+---
+
+## Після генерації:
+
+1. Скачати картинку
+2. Обрізати до квадрату (якщо потрібно)
+3. GitHub → Settings → Profile → Edit → Upload photo
+4. Готово!
+
+---
+
+## Якщо Gemini не генерує зображення:
+
+Альтернативи:
+- DALL-E 3 (ChatGPT Plus)
+- Midjourney (Discord)
+- Leonardo.ai (безкоштовно)
+- Stable Diffusion (локально)
+
+Або використай готові:
+- https://avatar.iran.liara.run/public (генератор аватарів)
+- https://ui-avatars.com/ (текстові аватари)
+- https://www.dicebear.com/ (SVG аватари)
