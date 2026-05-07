@@ -333,5 +333,42 @@ if (window.innerWidth <= 768) {
 // Console message for developers
 console.log('%c👋 Привіт, розробнику!', 'color: #00ff88; font-size: 20px; font-weight: bold;');
 console.log('%cЯкщо ти читаєш це, значить тобі цікаво, як працює цей сайт.', 'color: #0099ff; font-size: 14px;');
+
+// Modal functions
+function openModal(modalId) {
+    const modal = document.getElementById('modal-' + modalId);
+    if (modal) {
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+}
+
+function closeModal(modalId) {
+    const modal = document.getElementById('modal-' + modalId);
+    if (modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+}
+
+// Close modal on outside click
+document.querySelectorAll('.modal').forEach(modal => {
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+    });
+});
+
+// Close modal on ESC key
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        document.querySelectorAll('.modal.active').forEach(modal => {
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+    }
+});
 console.log('%cЗв\'яжись зі мною, якщо хочеш обговорити проєкт!', 'color: #00ff88; font-size: 14px;');
 console.log('%cTelegram: @solipsist_dev', 'color: #a0aec0; font-size: 12px;');
