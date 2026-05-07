@@ -291,118 +291,131 @@
                 <span class="title-number">03.</span>
                 Портфоліо
             </h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <div class="portfolio-image">
-                        <div class="portfolio-overlay">
-                            <div class="portfolio-links">
-                                <a href="https://github.com/Solipsist-crypto/crypto-cards-tracker" class="portfolio-link" title="GitHub" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://solipsist-crypto.github.io/crypto-cards-tracker/" class="portfolio-link" title="Live Demo" target="_blank">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
+
+            <div class="portfolio-carousel">
+                <button class="carousel-btn prev" onclick="moveCarousel(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <!-- Crypto Cards Tracker -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-image">
+                                <div class="portfolio-overlay">
+                                    <a href="https://github.com/Solipsist-crypto/crypto-cards-tracker" class="portfolio-btn" target="_blank">
+                                        <i class="fab fa-github"></i> View on GitHub
+                                    </a>
+                                </div>
+                                <div class="project-preview">
+                                    <div class="terminal">
+                                        <div class="terminal-header">
+                                            <span class="dot red"></span>
+                                            <span class="dot yellow"></span>
+                                            <span class="dot green"></span>
+                                            <span class="terminal-title">crypto-cards-tracker</span>
+                                        </div>
+                                        <div class="terminal-body">
+                                            <p><span class="success">✓</span> Loading 1000+ cryptocurrencies...</p>
+                                            <p><span class="info">→</span> Filter: Top 100</p>
+                                            <p><span class="success">✓</span> BTC: $80,677 <span class="profit">+2.5%</span></p>
+                                            <p><span class="success">✓</span> ETH: $3,245 <span class="profit">+1.8%</span></p>
+                                            <p><span class="info">→</span> Real-time updates active</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-content">
+                                <h3>Crypto Cards Tracker</h3>
+                                <p>
+                                    Інтерактивний трекер криптовалют з красивим card-дизайном.
+                                    Відображає 1000+ монет з CoinGecko API, фільтри за топом та змінами цін,
+                                    real-time оновлення кожні 2 хвилини.
+                                </p>
+                                <div class="portfolio-tech">
+                                    <span class="tech-tag">HTML/CSS</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">CoinGecko API</span>
+                                    <span class="tech-tag">Responsive Design</span>
+                                </div>
+                                <div class="portfolio-features">
+                                    <h4>Ключові можливості:</h4>
+                                    <ul>
+                                        <li><i class="fas fa-coins"></i> 1000+ криптовалют з live даними</li>
+                                        <li><i class="fas fa-filter"></i> Фільтри: Top 100/500, Gainers, Losers</li>
+                                        <li><i class="fas fa-chart-bar"></i> Market cap та 24h volume</li>
+                                        <li><i class="fas fa-sync"></i> Автоматичне оновлення цін</li>
+                                        <li><i class="fas fa-mobile-alt"></i> Адаптивний дизайн для всіх пристроїв</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                        <div class="project-preview">
-                            <div class="terminal">
-                                <div class="terminal-header">
-                                    <span class="dot red"></span>
-                                    <span class="dot yellow"></span>
-                                    <span class="dot green"></span>
-                                    <span class="terminal-title">crypto-cards-tracker</span>
+
+                        <!-- Trading Bot -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-image">
+                                <div class="portfolio-overlay">
+                                    <a href="https://t.me/Solipsist1" class="portfolio-btn" target="_blank">
+                                        <i class="fab fa-telegram"></i> Замовити проект
+                                    </a>
                                 </div>
-                                <div class="terminal-body">
-                                    <p><span class="success">✓</span> Loading 1000+ cryptocurrencies...</p>
-                                    <p><span class="info">→</span> Filter: Top 100</p>
-                                    <p><span class="success">✓</span> BTC: $80,677 <span class="profit">+2.5%</span></p>
-                                    <p><span class="success">✓</span> ETH: $3,245 <span class="profit">+1.8%</span></p>
-                                    <p><span class="info">→</span> Real-time updates active</p>
+                                <div class="project-preview">
+                                    <div class="terminal">
+                                        <div class="terminal-header">
+                                            <span class="dot red"></span>
+                                            <span class="dot yellow"></span>
+                                            <span class="dot green"></span>
+                                            <span class="terminal-title">adaptive_trading_bot.py</span>
+                                        </div>
+                                        <div class="terminal-body">
+                                            <p><span class="prompt">$</span> python main_adaptive.py</p>
+                                            <p><span class="success">✓</span> Market Analyzer initialized</p>
+                                            <p><span class="success">✓</span> AI Engine loaded</p>
+                                            <p><span class="info">→</span> Market: STRONG_TREND (92%)</p>
+                                            <p><span class="success">✓</span> Position opened: LONG ETH</p>
+                                            <p><span class="profit">+</span> Profit: +$45.23 (+3.2%)</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3>Crypto Cards Tracker</h3>
-                        <p>
-                            Інтерактивний трекер криптовалют з красивим card-дизайном.
-                            Відображає 1000+ монет з CoinGecko API, фільтри за топом та змінами цін,
-                            real-time оновлення кожні 2 хвилини.
-                        </p>
-                        <div class="portfolio-tech">
-                            <span class="tech-tag">HTML/CSS</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">CoinGecko API</span>
-                            <span class="tech-tag">Responsive Design</span>
-                        </div>
-                        <div class="portfolio-features">
-                            <h4>Ключові можливості:</h4>
-                            <ul>
-                                <li><i class="fas fa-coins"></i> 1000+ криптовалют з live даними</li>
-                                <li><i class="fas fa-filter"></i> Фільтри: Top 100/500, Gainers, Losers</li>
-                                <li><i class="fas fa-chart-bar"></i> Market cap та 24h volume</li>
-                                <li><i class="fas fa-sync"></i> Автоматичне оновлення цін</li>
-                                <li><i class="fas fa-mobile-alt"></i> Адаптивний дизайн для всіх пристроїв</li>
-                            </ul>
+                            <div class="portfolio-content">
+                                <h3>Adaptive Trading Bot</h3>
+                                <p>
+                                    Інтелектуальна торгова система з AI-аналізом ринку, що автоматично
+                                    адаптується до різних ринкових умов. Використовує технічний аналіз,
+                                    динамічний ризик-менеджмент та адаптивні стратегії.
+                                </p>
+                                <div class="portfolio-tech">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">Bybit API</span>
+                                    <span class="tech-tag">Telegram Bot</span>
+                                    <span class="tech-tag">SQLite</span>
+                                    <span class="tech-tag">Pandas</span>
+                                    <span class="tech-tag">Technical Analysis</span>
+                                </div>
+                                <div class="portfolio-features">
+                                    <h4>Ключові можливості:</h4>
+                                    <ul>
+                                        <li><i class="fas fa-brain"></i> AI визначення режиму ринку (Trend/Range/Chaos)</li>
+                                        <li><i class="fas fa-shield-alt"></i> Динамічний ризик-менеджмент</li>
+                                        <li><i class="fas fa-chart-line"></i> Адаптивні торгові стратегії</li>
+                                        <li><i class="fas fa-bell"></i> Real-time сповіщення в Telegram</li>
+                                        <li><i class="fas fa-database"></i> Розширена аналітика та логування</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="portfolio-item">
-                    <div class="portfolio-image">
-                        <div class="portfolio-overlay">
-                            <div class="portfolio-links">
-                                <a href="#" class="portfolio-link" title="Детальніше">
-                                    <i class="fas fa-eye"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="project-preview">
-                            <div class="terminal">
-                                <div class="terminal-header">
-                                    <span class="dot red"></span>
-                                    <span class="dot yellow"></span>
-                                    <span class="dot green"></span>
-                                    <span class="terminal-title">adaptive_trading_bot.py</span>
-                                </div>
-                                <div class="terminal-body">
-                                    <p><span class="prompt">$</span> python main_adaptive.py</p>
-                                    <p><span class="success">✓</span> Market Analyzer initialized</p>
-                                    <p><span class="success">✓</span> AI Engine loaded</p>
-                                    <p><span class="info">→</span> Market: STRONG_TREND (92%)</p>
-                                    <p><span class="success">✓</span> Position opened: LONG ETH</p>
-                                    <p><span class="profit">+</span> Profit: +$45.23 (+3.2%)</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3>Adaptive Trading Bot</h3>
-                        <p>
-                            Інтелектуальна торгова система з AI-аналізом ринку, що автоматично
-                            адаптується до різних ринкових умов. Використовує технічний аналіз,
-                            динамічний ризик-менеджмент та адаптивні стратегії.
-                        </p>
-                        <div class="portfolio-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Bybit API</span>
-                            <span class="tech-tag">Telegram Bot</span>
-                            <span class="tech-tag">SQLite</span>
-                            <span class="tech-tag">Pandas</span>
-                            <span class="tech-tag">Technical Analysis</span>
-                        </div>
-                        <div class="portfolio-features">
-                            <h4>Ключові можливості:</h4>
-                            <ul>
-                                <li><i class="fas fa-brain"></i> AI визначення режиму ринку (Trend/Range/Chaos)</li>
-                                <li><i class="fas fa-shield-alt"></i> Динамічний ризик-менеджмент</li>
-                                <li><i class="fas fa-chart-line"></i> Адаптивні торгові стратегії</li>
-                                <li><i class="fas fa-bell"></i> Real-time сповіщення в Telegram</li>
-                                <li><i class="fas fa-database"></i> Розширена аналітика та логування</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <button class="carousel-btn next" onclick="moveCarousel(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <div class="carousel-dots">
+                <span class="dot active" onclick="goToSlide(0)"></span>
+                <span class="dot" onclick="goToSlide(1)"></span>
             </div>
         </div>
     </section>

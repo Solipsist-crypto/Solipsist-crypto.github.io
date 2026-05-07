@@ -333,5 +333,56 @@ if (window.innerWidth <= 768) {
 // Console message for developers
 console.log('%c👋 Привіт, розробнику!', 'color: #00ff88; font-size: 20px; font-weight: bold;');
 console.log('%cЯкщо ти читаєш це, значить тобі цікаво, як працює цей сайт.', 'color: #0099ff; font-size: 14px;');
+
+// Portfolio Carousel
+let currentSlide = 0;
+const track = document.querySelector('.carousel-track');
+const dots = document.querySelectorAll('.carousel-dots .dot');
+
+function moveCarousel(direction) {
+    const items = document.querySelectorAll('.portfolio-item');
+    const totalSlides = items.length;
+
+    currentSlide += direction;
+
+    if (currentSlide < 0) {
+        currentSlide = totalSlides - 1;
+    } else if (currentSlide >= totalSlides) {
+        currentSlide = 0;
+    }
+
+    updateCarousel();
+}
+
+function goToSlide(index) {
+    currentSlide = index;
+    updateCarousel();
+}
+
+function updateCarousel() {
+    const offset = -currentSlide * 100;
+    track.style.transform = `translateX(${offset}%)`;
+
+    dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === currentSlide);
+    });
+}
+
+// Auto-play carousel (optional)
+let autoplayInterval = setInterval(() => {
+    moveCarousel(1);
+}, 5000);
+
+// Pause autoplay on hover
+const carousel = document.querySelector('.portfolio-carousel');
+carousel.addEventListener('mouseenter', () => {
+    clearInterval(autoplayInterval);
+});
+
+carousel.addEventListener('mouseleave', () => {
+    autoplayInterval = setInterval(() => {
+        moveCarousel(1);
+    }, 5000);
+});
 console.log('%cЗв\'яжись зі мною, якщо хочеш обговорити проєкт!', 'color: #00ff88; font-size: 14px;');
 console.log('%cTelegram: @solipsist_dev', 'color: #a0aec0; font-size: 12px;');
